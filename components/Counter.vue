@@ -17,7 +17,7 @@
 }
 .pre,
 .days {
-  font-size: 12vw;
+  font-size: 13vw;
   font-weight: bold;
 }
 .num {
