@@ -16,7 +16,7 @@ export default {
 
 <style>
 .container {
-  background-color:#FFFF54;
+  background-color:#ffffbb;
   width: 100vw;
   height: 100vh;
   display: flex;
