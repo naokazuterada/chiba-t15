@@ -17,6 +17,7 @@ export default {
 <style>
 .container {
   background-color:#FFFF54;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;

@@ -9,12 +9,12 @@
 <style>
 .wrap {
   display: flex;
-  display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   text-align: center;
   font-family: "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
+
 .pre,
 .days {
   font-size: 13vw;
@@ -23,6 +23,18 @@
 .num {
   font-size: 65vw;
   line-height: 1em;
+}
+
+@media screen and (orientation: landscape) {
+  .pre,
+  .days {
+    font-size: 13vh;
+    font-weight: bold;
+  }
+  .num {
+    font-size: 50vh;
+    line-height: 1em;
+  }
 }
 </style>
 
