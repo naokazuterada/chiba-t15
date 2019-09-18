@@ -12,7 +12,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   text-align: center;
-  font-family: "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-family: '游ゴシック体', 'Yu Gothic', 'YuGothic', YuGothic, 'Lucida Grande','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','HiraKakuProN-W3','メイリオ','Meiryo','ＭＳ ゴシック','MS Gothic',Osaka,Verdana,arial,helvetica,sans-serif;
 }
 
 .pre,
@@ -25,14 +25,15 @@
   line-height: 1em;
 }
 
+/* 横長の時　*/
 @media screen and (orientation: landscape) {
   .pre,
   .days {
-    font-size: 13vh;
+    font-size: 12vh;
     font-weight: bold;
   }
   .num {
-    font-size: 50vh;
+    font-size: 45vh;
     line-height: 1em;
   }
 }
