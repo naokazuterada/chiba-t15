@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
     "nuxt": "^2.0.0",
     "postcss-url": "^8.0.0"
   },
