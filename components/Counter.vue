@@ -16,24 +16,24 @@
 }
 
 .pre,
-.days {
-  font-size: 13vw;
-  font-weight: bold;
-}
-.num {
-  font-size: 65vw;
-  line-height: 1em;
-}
-
-/* 横長の時　*/
-@media screen and (orientation: landscape) {
-  .pre,
   .days {
     font-size: 12vh;
     font-weight: bold;
   }
   .num {
     font-size: 45vh;
+    line-height: 1em;
+  }
+
+/* 横長の時　*/
+@media screen and (orientation: portrait) {
+  .pre,
+  .days {
+    font-size: 13vw;
+    font-weight: bold;
+  }
+  .num {
+    font-size: 55vw;
     line-height: 1em;
   }
 }
