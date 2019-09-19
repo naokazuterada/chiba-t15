@@ -18,7 +18,7 @@ export default {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .twitter-hashtag-button {
