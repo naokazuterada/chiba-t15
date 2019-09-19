@@ -20,6 +20,7 @@ export default {
   display: flex;
   justify-content: left;
   align-items: center;
+  background: white;
 }
 .twitter-hashtag-button {
     margin-left: 10px;
